@@ -1,0 +1,105 @@
+@media screen and (max-width:1024px) {
+
+    #entrance {
+        display: none;
+    }
+
+    body {
+        background: url('../assets/clouds2_blur_mid.jpg');
+        background-attachment: scroll;
+        color: white !important;
+    }
+
+    #downloadlink {
+        animation: none;
+    }
+    .navbar {
+        display: flex;
+    }
+    .navbar span li #button0 {
+        transition: none;
+    }
+    .navbar span li a {
+        transition: none;
+        color: white;
+    }
+    .navbar li a:hover {
+        color: none;
+    }
+
+    #rubrique {
+        background: 0;
+        box-shadow: none;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #rubrique::before{
+      background: 0;
+    }
+
+    #welcome{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #welcome *{
+      margin: 10px 0;
+    }
+
+    #hwDesktop{
+      display: none;
+    }
+
+    #hwMobile{
+      display: block;
+    }
+
+
+}
+
+@media screen and (max-width:771px) {
+
+
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar .leftLinks {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .navbar .rightLinks{
+      display: flex;
+      justify-content: center;
+    }
+
+    .actif {
+        border-radius: 5px;
+    }
+
+
+    .logoSkills{
+      font-size: 3.5em;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input, textarea{
+      width: 100%;
+    }
+
+}
