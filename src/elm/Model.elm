@@ -1,7 +1,7 @@
 module Model exposing (..)
 
 type alias Model =
-    Page
+    { currentPage: Page }
 
 
 type Page
@@ -14,9 +14,9 @@ type Page
     | Legal
 
 
-model : Model
-model =
-    Home
+initialModel : Model
+initialModel =
+    { currentPage = Home }
 
 type Msg
     = NoOp

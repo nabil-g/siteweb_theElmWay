@@ -16,7 +16,7 @@ view model =
 
 viewPage : Model -> Html Msg
 viewPage model =
-    case model of
+    case model.currentPage of
         Home ->
             homeContent
 

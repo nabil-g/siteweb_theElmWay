@@ -10,5 +10,5 @@ import Update exposing (update)
 
 main : Program Never Model Msg
 main =
-    Html.beginnerProgram { model = model, view = view, update = update }
+    Html.beginnerProgram { model = initialModel, view = view, update = update }
 

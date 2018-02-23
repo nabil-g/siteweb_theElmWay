@@ -9,5 +9,5 @@ update msg model =
             model
 
         Go page ->
-            page
+            { model | currentPage = page }
 
