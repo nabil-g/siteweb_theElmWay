@@ -41,7 +41,7 @@ viewPage model =
 
 homeContent : Html msg
 homeContent =
-    div [ class "rubDiv", id "welcome" ]
+    div [ class "rubDiv animated", id "welcome" ]
         [ h2 [ class "hw", id "hwDesktop" ]
             []
         , h2 [ class "hw", id "hwMobile" ]
@@ -67,7 +67,7 @@ homeContent =
 
 skillsContent : Html msg
 skillsContent =
-    div [ class "rubDiv", id "one" ]
+    div [ class "rubDiv animated", id "one" ]
         [ h2 []
             [ text "Compétences" ]
         , h3 []
@@ -123,7 +123,7 @@ skillsContent =
 
 xpContent : Html msg
 xpContent =
-    div [ class "rubDiv", id "two" ]
+    div [ class "rubDiv animated", id "two" ]
         [ h2 []
             [ text "Expérience" ]
         , table []
@@ -181,7 +181,7 @@ xpContent =
 
 schoolContent : Html msg
 schoolContent =
-    div [ class "rubDiv", id "three" ]
+    div [ class "rubDiv animated", id "three" ]
         [ h2 []
             [ text "Formation" ]
         , table []
@@ -246,7 +246,7 @@ schoolContent =
 
 contactContent : Html msg
 contactContent =
-    div [ class "rubDiv", id "six" ]
+    div [ class "rubDiv animated", id "six" ]
         [ h2 []
             [ text "Contact" ]
         , p [ id "reponseMsg" ]
@@ -273,7 +273,7 @@ contactContent =
 aboutContent : Html Msg
 aboutContent =
     div []
-        [ div [ class "rubDiv", id "four" ]
+        [ div [ class "rubDiv animated", id "four" ]
             [ h2 []
                 [ text "À propos" ]
             , br []
