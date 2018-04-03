@@ -1,0 +1,10 @@
+node_modules/
+elm-stuff/
+dist/
+src/.idea/
+.idea/
+*.log
+*.swp
+*.iml
+package-lock.json
+db.php
